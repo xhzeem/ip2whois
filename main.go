@@ -92,7 +92,7 @@ func main() {
 
 	// Ensure API keys are provided
 	if *apiKeys == "" {
-		fmt.Println("Error: API keys (-keys) flag is required.")
+		fmt.Println("Error: API keys (-k) flag is required.")
 		os.Exit(1)
 	}
 
